@@ -1,11 +1,670 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Quinn Smith’s cybersecurity portfolio: threat intelligence automation, AI security testing, risk assessment, and Java systems programming."><meta name="theme-color" content="#122d38"><title>Cybersecurity Portfolio | Quinn Smith</title><style>
-:root{--ink:#182e3a;--muted:#52636c;--green:#146653;--pale:#e8f2ec;--paper:#f7f8f5;--line:#d9e1dc;--navy:#122d38;--white:#fff;--radius:18px}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}a{color:var(--green);text-underline-offset:4px}a:hover{text-decoration:underline}a:focus-visible,summary:focus-visible{outline:3px solid #b77819;outline-offset:5px}h1,h2,h3,p{margin-top:0}h1,h2,h3{line-height:1.16;letter-spacing:-.035em}h1{font-size:clamp(3.1rem,6.4vw,5.8rem);margin-bottom:22px}h2{font-size:clamp(2rem,3.2vw,2.7rem);margin-bottom:15px}h3{font-size:1.4rem;letter-spacing:-.02em}p{margin-bottom:18px}ul{padding-left:22px}.wrap{width:min(1120px,calc(100% - 64px));margin:auto}.skip{position:absolute;left:16px;top:-100px;z-index:20;background:white;padding:10px}.skip:focus{top:10px}.site-header{background:rgba(247,248,245,.97);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.header-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:86px}.brand{color:var(--ink);font-size:1.15rem;font-weight:750;text-decoration:none;display:flex;align-items:center;gap:12px}.monogram{display:grid;place-items:center;background:var(--navy);color:#d0eadb;width:39px;height:39px;border-radius:11px;font-size:.86rem;letter-spacing:1px}nav{display:flex;gap:28px;align-items:center}nav a{font-size:.88rem;color:var(--muted);text-decoration:none;font-weight:600}.hero{background:var(--navy);color:#fff;position:relative;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.7fr 1fr;gap:68px;padding:85px 0 76px;align-items:center}.eyebrow{font-size:.73rem;font-weight:750;letter-spacing:2px;text-transform:uppercase;color:var(--green);margin-bottom:20px}.hero .eyebrow{color:#a8d7bf}.hero h1 span{color:#a8d7bf}.hero .lead{font-size:1.12rem;line-height:1.75;color:#d0dde1;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.button{display:inline-flex;align-items:center;justify-content:center;gap:14px;background:var(--green);color:white;min-height:48px;padding:11px 21px;border-radius:8px;font-size:.9rem;font-weight:650;text-decoration:none;border:1px solid transparent}.button:hover{background:#0b5040;text-decoration:none}.hero .button{background:#bbe2cd;color:#102e29}.hero .button:hover{background:#d5f0e0}.button.secondary{background:transparent;color:var(--green);border-color:#c3d3ca}.hero .button.secondary{color:#e5eeee;border-color:#4a626b;background:transparent}.focus{border:1px solid #4b646c;border-radius:var(--radius);padding:28px 30px;background:#1b3742}.focus .eyebrow{color:#a8d7bf;margin-bottom:8px}.focus-row{padding:18px 0;border-bottom:1px solid #3c5660}.focus-row:last-child{border:0;padding-bottom:0}.focus-row strong{display:block;font-size:1rem;color:#edf5f1}.focus-row small{font-size:.84rem;color:#c3d2d8}.meta-strip{display:flex;gap:24px;flex-wrap:wrap;padding:21px 0;border-bottom:1px solid var(--line);font-size:.86rem;color:var(--muted)}.meta-strip span{display:flex;align-items:center;gap:8px}.dot{height:6px;width:6px;background:var(--green);border-radius:50%}.section{padding:76px 0}.section-heading{display:flex;justify-content:space-between;gap:28px;align-items:flex-end;margin-bottom:32px}.section-heading p{max-width:410px;color:var(--muted);margin-bottom:2px;font-size:.96rem}.section-heading .eyebrow{margin-bottom:12px}.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.project-card{background:white;border:1px solid var(--line);border-radius:var(--radius);padding:30px;display:flex;flex-direction:column;transition:transform .18s,border-color .18s}.project-card:hover{transform:translateY(-3px);border-color:#84ae9c}.card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}.number{font:500 .83rem/1 monospace;color:#6a7c74}.category{font-size:.71rem;letter-spacing:1px;font-weight:700;color:var(--green);text-transform:uppercase}.project-card h3{max-width:400px;margin-bottom:15px}.project-card p{color:var(--muted);font-size:.95rem}.tags{display:flex;flex-wrap:wrap;gap:7px;margin:4px 0 22px}.tag{background:var(--pale);color:#34584a;border-radius:5px;font-size:.73rem;padding:4px 9px;font-weight:600}.card-proof{padding:14px 0;border-top:1px solid var(--line);font-size:.86rem;margin-top:auto;margin-bottom:13px;color:var(--muted)}.card-proof strong{color:var(--ink)}.card-links{display:flex;gap:20px;flex-wrap:wrap;align-items:center;font-size:.86rem;font-weight:650}.card-links a{text-decoration:none}.card-links a:hover{text-decoration:underline}.team{margin-top:24px;background:var(--pale);border:1px solid #cbded2;border-radius:var(--radius);display:grid;grid-template-columns:1fr auto;gap:26px;padding:31px;align-items:center}.team h3{margin-bottom:12px}.team p{max-width:780px;color:#415e50;margin:0;font-size:.96rem}.team .eyebrow{margin-bottom:10px}.about{background:#eef1ec;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:70px}.about-copy p{color:var(--muted)}.education{margin-top:30px;padding-top:23px;border-top:1px solid #cbd5cc}.education strong{display:block;margin-bottom:5px}.education p{font-size:.92rem;margin-bottom:8px}.skills-box{background:white;border-radius:var(--radius);border:1px solid var(--line);padding:30px}.skills-box h3{margin-bottom:24px}.skill-row{padding:17px 0;border-top:1px solid var(--line)}.skill-row strong{font-size:.9rem;display:block;margin-bottom:7px}.skill-row p{font-size:.88rem;color:var(--muted);margin:0}.experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:42px}.job{padding-top:22px;border-top:2px solid #96b5a4}.job .date{font-size:.77rem;color:var(--green);font-weight:700;letter-spacing:.4px;margin-bottom:14px}.job h3{margin-bottom:8px}.job .org{color:var(--muted);font-size:.9rem;margin-bottom:15px}.job p{color:var(--muted);font-size:.94rem}.resume-panel{border:1px solid var(--line);background:white;border-radius:var(--radius);padding:35px;display:flex;justify-content:space-between;align-items:center;gap:30px;margin-top:44px}.resume-panel h3{margin-bottom:8px}.resume-panel p{color:var(--muted);font-size:.94rem;margin:0}.contact{background:var(--navy);color:white;padding:65px 0}.contact-inner{display:flex;justify-content:space-between;gap:35px;align-items:center}.contact .eyebrow{color:#a8d7bf}.contact p{color:#d0dde1;margin-bottom:0;max-width:640px}.contact a{color:#bbe2cd;overflow-wrap:anywhere}.contact .button{background:#bbe2cd;color:#102e29}.footer{padding:23px 0;font-size:.78rem;color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:20px}.detail{max-width:860px;padding:65px 0 75px}.detail h1{font-size:clamp(2.4rem,5vw,3.7rem)}.detail .intro{font-size:1.14rem;color:var(--muted);line-height:1.75}.back{display:inline-block;font-size:.87rem;margin-bottom:30px;text-decoration:none}.detail h2{font-size:1.55rem;margin-top:42px}.detail h3{font-size:1.1rem;letter-spacing:0}.detail li{margin:9px 0}.detail p,.detail li{color:var(--muted)}.detail .result{border-left:4px solid var(--green);background:var(--pale);padding:23px 26px;border-radius:0 10px 10px 0;margin:28px 0}.result strong{color:var(--ink)}.result p:last-child{margin-bottom:0}.table-scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{text-align:left;padding:14px;border-bottom:1px solid var(--line)}th{color:var(--ink);background:var(--pale)}figure{margin:30px 0}figure img{width:100%;height:auto;border-radius:8px;border:1px solid var(--line)}figcaption{font-size:.8rem;color:var(--muted);margin-top:12px}video{width:100%;border-radius:12px;background:#15252f}pre{white-space:pre-wrap;background:#152e39;color:#d6e7df;border-radius:12px;padding:24px;overflow:auto;font-size:.9rem}.download-list{list-style:none;padding:0}.download-list li{border-bottom:1px solid var(--line);padding:12px 0}.download-list a{font-weight:600}details{border:1px solid var(--line);padding:16px 20px;border-radius:10px;margin-top:20px}summary{cursor:pointer;font-weight:600}.note{font-size:.86rem}
-@media(max-width:900px){.hero-grid{gap:30px;grid-template-columns:1.5fr 1fr}.focus{padding:22px}.about-grid{gap:35px}.team{grid-template-columns:1fr}.contact-inner{align-items:flex-start;flex-direction:column}}
-@media(max-width:680px){.wrap{width:calc(100% - 36px)}.header-inner{min-height:80px;gap:10px;flex-wrap:wrap;padding:14px 0}.brand{font-size:1rem}.monogram{width:32px;height:32px}nav{gap:17px}nav a{font-size:.78rem}.hero-grid{grid-template-columns:1fr;padding:52px 0;gap:32px}.hero h1{font-size:3.2rem}.hero .lead{font-size:1rem}.focus{padding:20px 24px}.focus-row{padding:12px 0}.section{padding:50px 0}.section-heading{display:block}.section-heading p{margin-top:18px}.project-grid,.about-grid,.experience-grid{grid-template-columns:1fr}.project-card{padding:24px}.team{padding:25px}.resume-panel{align-items:flex-start;flex-direction:column;padding:25px}.footer-inner{flex-direction:column;gap:6px}.meta-strip{gap:13px 20px}.detail{padding-top:40px}.detail h1{font-size:2.5rem}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.project-card{transition:none}.project-card:hover{transform:none}}
-</style></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html"><span class="monogram" aria-hidden="true">QS</span>Quinn Smith</a><nav aria-label="Main navigation"><a href="index.html#projects">Projects</a><a href="index.html#about">About</a><a href="index.html#resume">Résumé</a><a href="index.html#contact">Contact</a></nav></div></header><main id="main"><section class="hero" aria-labelledby="intro-title"><div class="wrap hero-grid"><div><p class="eyebrow">Cybersecurity portfolio</p><h1 id="intro-title">Quinn <span>Smith.</span></h1><p class="lead">Cybersecurity student building practical tools for threat intelligence, exploring AI security, and translating risk assessments into clear recommendations.</p><div class="actions"><a class="button" href="#projects">Explore projects <span aria-hidden="true">↓</span></a><a class="button secondary" href="downloads/Quinn_Smith_Resume.pdf" download>Download résumé <span aria-hidden="true">↗</span></a></div></div><aside class="focus" aria-label="Areas of focus"><p class="eyebrow">Where I focus</p><div class="focus-row"><strong>Security automation</strong><small>Python tools &amp; threat intelligence</small></div><div class="focus-row"><strong>AI security</strong><small>Adversarial testing &amp; prompt injection</small></div><div class="focus-row"><strong>Risk management</strong><small>Asset assessment &amp; mitigation planning</small></div></aside></div></section><div class="wrap meta-strip"><span><i class="dot" aria-hidden="true"></i>University of Wisconsin–Platteville</span><span><i class="dot" aria-hidden="true"></i>B.S. Cyber Security · Expected May 2027</span><span><i class="dot" aria-hidden="true"></i>Neenah, Wisconsin</span></div>
-<section class="section wrap" id="projects"><div class="section-heading"><div><p class="eyebrow">Selected work</p><h2>Projects with a practical purpose.</h2></div><p>Explore the problem, the implementation, and the evidence behind each project.</p></div><div class="project-grid"><article class="project-card"><div class="card-top"><span class="number">01</span><span class="category">Security automation</span></div><h3>Automated Threat Intelligence</h3><p>A Python pipeline that collects public threat feeds, extracts indicators, and turns new records into a prioritized briefing using a locally hosted language model.</p><div class="tags"><span class="tag">Python</span><span class="tag">SQLite</span><span class="tag">Ollama</span><span class="tag">CISA KEV</span></div><div class="card-proof"><strong>57 items collected</strong> in the documented test run; 25 summarized across five batches.</div><div class="card-links"><a href="projects/threat-intelligence.html">View project <span aria-hidden="true">↗</span></a><a href="downloads/Threat_Intelligence_Report.pdf">Read report <span aria-hidden="true">↗</span></a></div></article><article class="project-card"><div class="card-top"><span class="number">02</span><span class="category">AI security</span></div><h3>Prompt Injection Security Assessment</h3><p>Garak testing of GPT-2, Llama 3.2 1B, and Mistral 7B, with probe-level analysis and practical recommendations for securing LLM applications.</p><div class="tags"><span class="tag">Garak</span><span class="tag">Hugging Face</span><span class="tag">Ollama</span><span class="tag">OWASP</span></div><div class="card-proof"><strong>Three models assessed</strong> across differing probe sets, with coverage limitations documented.</div><div class="card-links"><a href="projects/prompt-injection.html">View project <span aria-hidden="true">↗</span></a><a href="downloads/Prompt_Injection_Report.pdf">Read report <span aria-hidden="true">↗</span></a></div></article><article class="project-card"><div class="card-top"><span class="number">03</span><span class="category">Governance & risk</span></div><h3>Information Security Risk Management</h3><p>A semester-long assessment for a nonprofit, connecting asset ownership, recovery objectives, threat analysis, and prioritized mitigation recommendations.</p><div class="tags"><span class="tag">NIST SP 800-30</span><span class="tag">NIST SP 800-53</span><span class="tag">Risk assessment</span></div><div class="card-proof"><strong>14 assets inventoried</strong> and five priority risk scenarios mapped to security controls.</div><div class="card-links"><a href="projects/risk-management.html">View project <span aria-hidden="true">↗</span></a></div></article><article class="project-card"><div class="card-top"><span class="number">04</span><span class="category">Systems programming</span></div><h3>MiniOS Operating System Simulator</h3><p>A team-built Java simulator for process management, round robin scheduling, first-fit memory allocation, and semaphore synchronization.</p><div class="tags"><span class="tag">Java</span><span class="tag">Operating systems</span><span class="tag">Team project</span></div><div class="card-proof"><strong>Five integrated components</strong> with a command-line interface and documented test observations.</div><div class="card-links"><a href="projects/minios.html">View project <span aria-hidden="true">↗</span></a><a href="downloads/MiniOS_Report.pdf">Read report <span aria-hidden="true">↗</span></a></div></article></div><article class="team"><div><p class="eyebrow">Collaboration</p><h3>Plattifornia–PLATT2 GitHub Contributions</h3><p>I contribute to projects in the Plattifornia–PLATT2 GitHub organization. Explore the team’s shared repositories alongside the individual and academic work featured here.</p></div><a class="button secondary" href="https://github.com/Plattifornia-PLATT2/" target="_blank" rel="noopener noreferrer">Explore team GitHub <span aria-hidden="true">↗</span></a></article></section>
-<section class="section about" id="about"><div class="wrap about-grid"><div class="about-copy"><p class="eyebrow">About me</p><h2>A technical foundation.<br>A hands-on approach.</h2><p>I’m studying cybersecurity at the University of Wisconsin–Platteville, with an interest in security automation, software security, and the risks surrounding AI systems. My projects combine programming, security analysis, and clear technical documentation.</p><p>Outside the classroom, I compete in capture-the-flag challenges through the Cybersecurity Club and collaborate on technical projects in the Robotics Club. My work in event management and waterfront leadership has also strengthened my troubleshooting, communication, and risk assessment skills.</p><div class="education"><strong>Bachelor of Science in Cyber Security</strong><p>University of Wisconsin–Platteville · Expected May 2027</p><p>Coursework: Software Security, Ethical Hacking, Operating Systems, Network Security, and Database.</p></div></div><div class="skills-box"><h3>Technical skills</h3><div class="skill-row"><strong>Programming &amp; data</strong><p>Python · Java · SQL · C · SQLite</p></div><div class="skill-row"><strong>Security analysis</strong><p>Threat intelligence · IOC extraction · Prompt injection testing · Risk assessment · Wireshark · AES-256 encryption</p></div><div class="skill-row"><strong>Tools &amp; platforms</strong><p>Garak · Ollama · Hugging Face · Git/GitHub · CISA KEV · RSS feed parsing</p></div><div class="skill-row"><strong>Frameworks &amp; concepts</strong><p>NIST SP 800-53 · OWASP LLM Top 10 · Zero Trust</p></div></div></div></section>
-<section class="section wrap" id="resume"><div class="section-heading"><div><p class="eyebrow">Experience &amp; résumé</p><h2>Responsibility beyond the code.</h2></div><p>Leadership, live troubleshooting, and safety-focused decision-making.</p></div><div class="experience-grid"><article class="job"><p class="date">SEP 2024 – PRESENT</p><h3>Student Event Manager</h3><p class="org">University of Wisconsin–Platteville</p><p>Coordinate registration, A/V setup, and event logistics. Support guests, staff, and event teams while resolving technical and operational issues during live events.</p></article><article class="job"><p class="date">MAY 2023 – AUG 2026</p><h3>Waterfront Director</h3><p class="org">United Church of Christ, Inc.</p><p>Supervised staff and volunteers, maintained safety compliance, facilitated staff training, and led operational risk assessments for waterfront activities.</p></article></div><div class="resume-panel"><div><h3>My résumé, in one place.</h3><p>Education, technical skills, selected projects, experience, and activities.</p></div><div class="actions" style="margin-top:0"><a class="button" href="downloads/Quinn_Smith_Resume.pdf">View résumé <span aria-hidden="true">↗</span></a><a class="button secondary" href="downloads/Quinn_Smith_Resume.pdf" download>Download PDF</a></div></div></section>
-<section class="contact" id="contact"><div class="wrap contact-inner"><div><p class="eyebrow">Get in touch</p><h2>Let’s connect.</h2><p>I’m interested in opportunities to apply my cybersecurity, programming, and problem-solving skills.<br><a href="mailto:quinnzsmith@gmail.com">quinnzsmith@gmail.com</a></p></div><a class="button" href="mailto:quinnzsmith@gmail.com">Email Quinn <span aria-hidden="true">↗</span></a></div></section></main><footer class="footer"><div class="wrap footer-inner"><span>© 2026 Quinn Smith</span><span>Cybersecurity · University of Wisconsin–Platteville</span></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =========================================
+       PAGE SETTINGS
+  ========================================== -->
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  />
+  <meta
+    name="description"
+    content="Quinn Smith’s cybersecurity portfolio: threat intelligence automation, AI security testing, risk assessment, and Java systems programming."
+  />
+  <meta
+    name="theme-color"
+    content="#122d38"
+  />
+  <title>Cybersecurity Portfolio | Quinn Smith</title>
+  <!-- Main stylesheet -->
+  <link
+    rel="stylesheet"
+    href="assets/site.css"
+  />
+</head>
+<body>
+  <!-- =========================================
+       ACCESSIBILITY
+  ========================================== -->
+  <a
+    class="skip"
+    href="#main"
+  >
+    Skip to content
+  </a>
+  <!-- =========================================
+       HEADER / NAVIGATION
+  ========================================== -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <!-- Logo / Name -->
+      <a
+        class="brand"
+        href="index.html"
+      >
+        <span
+          class="monogram"
+          aria-hidden="true"
+        >
+          QS
+        </span>
+        Quinn Smith
+      </a>
+      <!-- Navigation -->
+      <nav aria-label="Main navigation">
+        <a href="index.html#projects">
+          Projects
+        </a>
+        <a href="index.html#about">
+          About
+        </a>
+        <a href="index.html#resume">
+          Resume
+        </a>
+
+        <a href="index.html#contact">
+          Contact
+        </a>
+      </nav>
+    </div>
+  </header>
+  <!-- =========================================
+       MAIN CONTENT
+  ========================================== -->
+  <main id="main">
+    <!-- =======================================
+         HERO / INTRODUCTION
+    ======================================== -->
+    <section
+      class="hero"
+      aria-labelledby="intro-title"
+    >
+      <div class="wrap hero-grid">
+        <!-- Introduction -->
+        <div>
+          <p class="eyebrow">
+            Cybersecurity portfolio
+          </p>
+          <h1 id="intro-title">
+            Quinn
+            <span>Smith.</span>
+          </h1>
+          <p class="lead">
+            Cybersecurity student building practical tools for
+            threat intelligence, exploring AI security, and
+            translating risk assessments into clear recommendations.
+          </p>
+          <div class="actions">
+            <a
+              class="button"
+              href="#projects"
+            >
+              Explore projects
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a
+              class="button secondary"
+              href="downloads/Quinn_Smith_Resume.pdf"
+              download
+            >
+              Download resume
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+        <aside
+          class="focus"
+          aria-label="Areas of focus"
+        >
+          <p class="eyebrow">
+            Where I focus
+          </p>
+          <div class="focus-row">
+            <strong>Security automation</strong>
+            <small>
+              Python tools &amp; threat intelligence
+            </small>
+          </div>
+          <div class="focus-row">
+            <strong>AI security</strong>
+            <small>
+              Adversarial testing &amp; prompt injection
+            </small>
+          </div>
+          <div class="focus-row">
+            <strong>Risk management</strong>
+            <small>
+              Asset assessment &amp; mitigation planning
+            </small>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- =======================================
+         EDUCATION / LOCATION STRIP
+    ======================================== -->
+    <div class="wrap meta-strip">
+      <span>
+        <i
+          class="dot"
+          aria-hidden="true"
+        ></i>
+        University of Wisconsin–Platteville
+      </span>
+      <span>
+        <i
+          class="dot"
+          aria-hidden="true"
+        ></i>
+        B.S. Cyber Security · Expected May 2027
+      </span>
+      <span>
+        <i
+          class="dot"
+          aria-hidden="true"
+        ></i>
+        Neenah, Wisconsin
+      </span>
+    </div>
+    <!-- =======================================
+         PROJECTS
+    ======================================== -->
+    <section
+      class="section wrap"
+      id="projects"
+    >
+      <!-- Section Heading -->
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">
+            Selected work
+          </p>
+          <h2>
+            Projects with a practical purpose.
+          </h2>
+        </div>
+        <p>
+          Explore the problem, the implementation, and
+          the evidence behind each project.
+        </p>
+      </div>
+      <div class="project-grid">
+        <!-- ===================================
+             PROJECT 01
+             Automated Threat Intelligence
+        ==================================== -->
+        <article class="project-card">
+          <div class="card-top">
+            <span class="number">
+              01
+            </span>
+            <span class="category">
+              Security automation
+            </span>
+          </div>
+          <h3>
+            Automated Threat Intelligence
+          </h3>
+          <p>
+            A Python pipeline that collects public threat feeds,
+            extracts indicators, and turns new records into a
+            prioritized briefing using a locally hosted language model.
+          </p>
+          <!-- Technologies -->
+          <div class="tags">
+            <span class="tag">
+              Python
+            </span>
+            <span class="tag">
+              SQLite
+            </span>
+            <span class="tag">
+              Ollama
+            </span>
+            <span class="tag">
+              CISA KEV
+            </span>
+          </div>
+          <!-- Project Result -->
+          <div class="card-proof">
+            <strong>
+              57 items collected
+            </strong>
+            in the documented test run;
+            25 summarized across five batches.
+          </div>
+          <!-- Project Links -->
+          <div class="card-links">
+            <a href="projects/threat-intelligence.html">
+              View project
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="downloads/Threat_Intelligence_Report.pdf">
+              Read report
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+        <!-- ===================================
+             PROJECT 02
+             Prompt Injection Assessment
+        ==================================== -->
+        <article class="project-card">
+          <div class="card-top">
+            <span class="number">
+              02
+            </span>
+            <span class="category">
+              AI security
+            </span>
+          </div>
+          <h3>
+            Prompt Injection Security Assessment
+          </h3>
+          <p>
+            Garak testing of GPT-2, Llama 3.2 1B, and Mistral 7B,
+            with probe-level analysis and practical recommendations
+            for securing LLM applications.
+          </p>
+          <!-- Technologies -->
+          <div class="tags">
+            <span class="tag">
+              Garak
+            </span>
+            <span class="tag">
+              Hugging Face
+            </span>
+            <span class="tag">
+              Ollama
+            </span>
+            <span class="tag">
+              OWASP
+            </span>
+          </div>
+          <!-- Project Result -->
+          <div class="card-proof">
+            <strong>
+              Three models assessed
+            </strong>
+            across differing probe sets,
+            with coverage limitations documented.
+          </div>
+          <!-- Project Links -->
+          <div class="card-links">
+            <a href="projects/prompt-injection.html">
+              View project
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="downloads/Prompt_Injection_Report.pdf">
+              Read report
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+        <!-- ===================================
+             PROJECT 03
+             Risk Management
+        ==================================== -->
+        <article class="project-card">
+          <div class="card-top">
+            <span class="number">
+              03
+            </span>
+            <span class="category">
+              Governance &amp; risk
+            </span>
+          </div>
+          <h3>
+            Information Security Risk Management
+          </h3>
+          <p>
+            A semester-long assessment for a nonprofit,
+            connecting asset ownership, recovery objectives,
+            threat analysis, and prioritized mitigation recommendations.
+          </p>
+          <!-- Technologies / Frameworks -->
+          <div class="tags">
+            <span class="tag">
+              NIST SP 800-30
+            </span>
+            <span class="tag">
+              NIST SP 800-53
+            </span>
+            <span class="tag">
+              Risk assessment
+            </span>
+          </div>
+          <!-- Project Result -->
+          <div class="card-proof">
+            <strong>
+              14 assets inventoried
+            </strong>
+            and five priority risk scenarios
+            mapped to security controls.
+          </div>
+          <!-- Project Links -->
+          <div class="card-links">
+            <a href="projects/risk-management.html">
+              View project
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+        <!-- ===================================
+             PROJECT 04
+             MiniOS
+        ==================================== -->
+        <article class="project-card">
+          <div class="card-top">
+            <span class="number">
+              04
+            </span>
+            <span class="category">
+              Systems programming
+            </span>
+          </div>
+          <h3>
+            MiniOS Operating System Simulator
+          </h3>
+          <p>
+            A team-built Java simulator for process management,
+            round robin scheduling, first-fit memory allocation,
+            and semaphore synchronization.
+          </p>
+          <!-- Technologies -->
+          <div class="tags">
+            <span class="tag">
+              Java
+            </span>
+            <span class="tag">
+              Operating systems
+            </span>
+            <span class="tag">
+              Team project
+            </span>
+          </div>
+          <!-- Project Result -->
+          <div class="card-proof">
+            <strong>
+              Five integrated components
+            </strong>
+            with a command-line interface
+            and documented test observations.
+          </div>
+          <!-- Project Links -->
+          <div class="card-links">
+            <a href="projects/minios.html">
+              View project
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="downloads/MiniOS_Report.pdf">
+              Read report
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+      <!-- =====================================
+           TEAM / GITHUB CONTRIBUTIONS
+      ====================================== -->
+      <article class="team">
+        <div>
+          <p class="eyebrow">
+            Collaboration
+          </p>
+          <h3>
+            Plattifornia–PLATT2 GitHub Contributions
+          </h3>
+          <p>
+            I contribute to projects in the Plattifornia–PLATT2
+            GitHub organization. Explore the team’s shared repositories
+            alongside the individual and academic work featured here.
+          </p>
+        </div>
+        <a
+          class="button secondary"
+          href="https://github.com/Plattifornia-PLATT2/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Explore team GitHub
+          <span aria-hidden="true">↗</span>
+        </a>
+      </article>
+    </section>
+    <!-- =======================================
+         ABOUT
+    ======================================== -->
+    <section
+      class="section about"
+      id="about"
+    >
+      <div class="wrap about-grid">
+        <!-- About Me -->
+        <div class="about-copy">
+          <p class="eyebrow">
+            About me
+          </p>
+          <h2>
+            A technical foundation.
+            <br />
+            A hands-on approach.
+          </h2>
+          <p>
+            I’m studying cybersecurity at the University of
+            Wisconsin–Platteville, with an interest in security
+            automation, software security, and the risks surrounding
+            AI systems. My projects combine programming, security
+            analysis, and clear technical documentation.
+          </p>
+          <p>
+            Outside the classroom, I compete in capture-the-flag
+            challenges through the Cybersecurity Club and collaborate
+            on technical projects in the Robotics Club. My work in
+            event management and waterfront leadership has also
+            strengthened my troubleshooting, communication, and
+            risk assessment skills.
+          </p>
+          <!-- Education -->
+          <div class="education">
+            <strong>
+              Bachelor of Science in Cyber Security
+            </strong>
+            <p>
+              University of Wisconsin–Platteville · Expected May 2027
+            </p>
+            <p>
+              Coursework: Software Security, Ethical Hacking,
+              Operating Systems, Network Security, and Database.
+            </p>
+          </div>
+        </div>
+        <!-- ===================================
+             TECHNICAL SKILLS
+        ==================================== -->
+        <div class="skills-box">
+          <h3>
+            Technical skills
+          </h3>
+          <div class="skill-row">
+            <strong>
+              Programming &amp; data
+            </strong>
+            <p>
+              Python · Java · SQL · C · SQLite
+            </p>
+          </div>
+          <div class="skill-row">
+            <strong>
+              Security analysis
+            </strong>
+            <p>
+              Threat intelligence · IOC extraction ·
+              Prompt injection testing · Risk assessment ·
+              Wireshark · AES-256 encryption
+            </p>
+          </div>
+          <div class="skill-row">
+            <strong>
+              Tools &amp; platforms
+            </strong>
+            <p>
+              Garak · Ollama · Hugging Face · Git/GitHub ·
+              CISA KEV · RSS feed parsing
+            </p>
+          </div>
+          <div class="skill-row">
+            <strong>
+              Frameworks &amp; concepts
+            </strong>
+            <p>
+              NIST SP 800-53 · OWASP LLM Top 10 · Zero Trust
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =======================================
+         EXPERIENCE / RESUME
+    ======================================== -->
+    <section
+      class="section wrap"
+      id="resume"
+    >
+      <!-- Section Heading -->
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">
+            Experience &amp; resume
+          </p>
+          <h2>
+            Responsibility beyond the code.
+          </h2>
+        </div>
+        <p>
+          Leadership, live troubleshooting,
+          and safety-focused decision-making.
+        </p>
+      </div>
+      <!-- Experience -->
+      <div class="experience-grid">
+        <!-- Student Event Manager -->
+        <article class="job">
+          <p class="date">
+            SEP 2024 – PRESENT
+          </p>
+          <h3>
+            Student Event Manager
+          </h3>
+          <p class="org">
+            University of Wisconsin–Platteville
+          </p>
+          <p>
+            Coordinate registration, A/V setup, and event logistics.
+            Support guests, staff, and event teams while resolving
+            technical and operational issues during live events.
+          </p>
+        </article>
+        <!-- Waterfront Director -->
+        <article class="job">
+          <p class="date">
+            MAY 2023 – AUG 2026
+          </p>
+          <h3>
+            Waterfront Director
+          </h3>
+          <p class="org">
+            United Church of Christ, Inc.
+          </p>
+          <p>
+            Supervised staff and volunteers, maintained safety
+            compliance, facilitated staff training, and led
+            operational risk assessments for waterfront activities.
+          </p>
+        </article>
+      </div>
+      <!-- =====================================
+           RESUME DOWNLOAD PANEL
+      ====================================== -->
+      <div class="resume-panel">
+        <div>
+          <h3>
+            My resume, in one place.
+          </h3>
+          <p>
+            Education, technical skills, selected projects,
+            experience, and activities.
+          </p>
+        </div>
+        <div
+          class="actions"
+          style="margin-top: 0"
+        >
+          <a
+            class="button"
+            href="downloads/Quinn_Smith_Resume.pdf"
+          >
+            View resume
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a
+            class="button secondary"
+            href="downloads/Quinn_Smith_Resume.pdf"
+            download
+          >
+            Download PDF
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- =======================================
+         CONTACT
+    ======================================== -->
+    <section
+      class="contact"
+      id="contact"
+    >
+      <div class="wrap contact-inner">
+        <div>
+          <p class="eyebrow">
+            Get in touch
+          </p>
+          <h2>
+            Let’s connect.
+          </h2>
+          <p>
+            I’m interested in opportunities to apply my cybersecurity,
+            programming, and problem-solving skills.
+            <br />
+            <a href="mailto:quinnzsmith@gmail.com">
+              quinnzsmith@gmail.com
+            </a>
+          </p>
+        </div>
+        <a
+          class="button"
+          href="mailto:quinnzsmith@gmail.com"
+        >
+          Email Quinn
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>
+        © 2026 Quinn Smith
+      </span>
+      <span>
+        Cybersecurity · University of Wisconsin–Platteville
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
