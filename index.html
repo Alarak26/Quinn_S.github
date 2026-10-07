@@ -22,10 +22,6 @@
   <title>Cybersecurity Portfolio | Quinn Smith</title>
 
 
-  <!-- =========================================================
-       ALL WEBSITE STYLING IS HERE
-       You do NOT need a separate CSS file.
-  ========================================================== -->
   <style>
 
     :root {
@@ -36,7 +32,7 @@
       --paper: #f7f8f5;
       --line: #d9e1dc;
       --navy: #122d38;
-      --white: #fff;
+      --white: #ffffff;
       --radius: 18px;
     }
 
@@ -56,11 +52,14 @@
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font: 16px/1.7 -apple-system,
-            BlinkMacSystemFont,
-            "Segoe UI",
-            Arial,
-            sans-serif;
+
+      font:
+        16px/1.7
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
     }
 
 
@@ -75,8 +74,7 @@
     }
 
 
-    a:focus-visible,
-    summary:focus-visible {
+    a:focus-visible {
       outline: 3px solid #b77819;
       outline-offset: 5px;
     }
@@ -121,20 +119,15 @@
     }
 
 
-    ul {
-      padding-left: 22px;
-    }
-
-
     .wrap {
       width: min(1120px, calc(100% - 64px));
       margin: auto;
     }
 
 
-    /* =========================================================
+    /* ======================================================
        SKIP LINK
-    ========================================================== */
+    ====================================================== */
 
     .skip {
       position: absolute;
@@ -151,15 +144,17 @@
     }
 
 
-    /* =========================================================
+    /* ======================================================
        HEADER
-    ========================================================== */
+    ====================================================== */
 
     .site-header {
       background: rgba(247, 248, 245, 0.97);
       border-bottom: 1px solid var(--line);
+
       position: sticky;
       top: 0;
+
       z-index: 10;
     }
 
@@ -168,18 +163,24 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       gap: 20px;
+
       min-height: 86px;
     }
 
 
     .brand {
       color: var(--ink);
+
       font-size: 1.15rem;
       font-weight: 750;
+
       text-decoration: none;
+
       display: flex;
       align-items: center;
+
       gap: 12px;
     }
 
@@ -187,11 +188,15 @@
     .monogram {
       display: grid;
       place-items: center;
+
       background: var(--navy);
       color: #d0eadb;
+
       width: 39px;
       height: 39px;
+
       border-radius: 11px;
+
       font-size: 0.86rem;
       letter-spacing: 1px;
     }
@@ -199,8 +204,9 @@
 
     nav {
       display: flex;
-      gap: 28px;
       align-items: center;
+
+      gap: 28px;
     }
 
 
@@ -212,13 +218,14 @@
     }
 
 
-    /* =========================================================
+    /* ======================================================
        HERO
-    ========================================================== */
+    ====================================================== */
 
     .hero {
       background: var(--navy);
-      color: #fff;
+      color: white;
+
       position: relative;
       overflow: hidden;
     }
@@ -227,8 +234,11 @@
     .hero-grid {
       display: grid;
       grid-template-columns: 1.7fr 1fr;
+
       gap: 68px;
+
       padding: 85px 0 76px;
+
       align-items: center;
     }
 
@@ -236,9 +246,12 @@
     .eyebrow {
       font-size: 0.73rem;
       font-weight: 750;
+
       letter-spacing: 2px;
       text-transform: uppercase;
+
       color: var(--green);
+
       margin-bottom: 20px;
     }
 
@@ -256,19 +269,22 @@
     .hero .lead {
       font-size: 1.12rem;
       line-height: 1.75;
+
       color: #d0dde1;
+
       max-width: 650px;
     }
 
 
-    /* =========================================================
+    /* ======================================================
        BUTTONS
-    ========================================================== */
+    ====================================================== */
 
     .actions {
       display: flex;
       gap: 12px;
       flex-wrap: wrap;
+
       margin-top: 26px;
     }
 
@@ -277,6 +293,7 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+
       gap: 14px;
 
       background: var(--green);
@@ -328,14 +345,16 @@
     }
 
 
-    /* =========================================================
+    /* ======================================================
        FOCUS BOX
-    ========================================================== */
+    ====================================================== */
 
     .focus {
       border: 1px solid #4b646c;
       border-radius: var(--radius);
+
       padding: 28px 30px;
+
       background: #1b3742;
     }
 
@@ -360,7 +379,9 @@
 
     .focus-row strong {
       display: block;
+
       font-size: 1rem;
+
       color: #edf5f1;
     }
 
@@ -371,9 +392,9 @@
     }
 
 
-    /* =========================================================
-       INFORMATION STRIP
-    ========================================================== */
+    /* ======================================================
+       INFO STRIP
+    ====================================================== */
 
     .meta-strip {
       display: flex;
@@ -392,6 +413,7 @@
     .meta-strip span {
       display: flex;
       align-items: center;
+
       gap: 8px;
     }
 
@@ -399,14 +421,16 @@
     .dot {
       height: 6px;
       width: 6px;
+
       background: var(--green);
+
       border-radius: 50%;
     }
 
 
-    /* =========================================================
-       GENERAL SECTIONS
-    ========================================================== */
+    /* ======================================================
+       SECTIONS
+    ====================================================== */
 
     .section {
       padding: 76px 0;
@@ -416,16 +440,21 @@
     .section-heading {
       display: flex;
       justify-content: space-between;
-      gap: 28px;
       align-items: flex-end;
+
+      gap: 28px;
+
       margin-bottom: 32px;
     }
 
 
     .section-heading p {
       max-width: 410px;
+
       color: var(--muted);
+
       margin-bottom: 2px;
+
       font-size: 0.96rem;
     }
 
@@ -435,19 +464,21 @@
     }
 
 
-    /* =========================================================
-       PROJECTS
-    ========================================================== */
+    /* ======================================================
+       PROJECT CARDS
+    ====================================================== */
 
     .project-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
+
       gap: 22px;
     }
 
 
     .project-card {
       background: white;
+
       border: 1px solid var(--line);
       border-radius: var(--radius);
 
@@ -472,6 +503,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
       margin-bottom: 24px;
     }
 
@@ -484,9 +516,13 @@
 
     .category {
       font-size: 0.71rem;
+
       letter-spacing: 1px;
+
       font-weight: 700;
+
       color: var(--green);
+
       text-transform: uppercase;
     }
 
@@ -506,7 +542,9 @@
     .tags {
       display: flex;
       flex-wrap: wrap;
+
       gap: 7px;
+
       margin: 4px 0 22px;
     }
 
@@ -514,9 +552,13 @@
     .tag {
       background: var(--pale);
       color: #34584a;
+
       border-radius: 5px;
+
       font-size: 0.73rem;
+
       padding: 4px 9px;
+
       font-weight: 600;
     }
 
@@ -543,6 +585,7 @@
     .card-links {
       display: flex;
       gap: 20px;
+
       flex-wrap: wrap;
       align-items: center;
 
@@ -561,9 +604,9 @@
     }
 
 
-    /* =========================================================
-       GITHUB COLLABORATION
-    ========================================================== */
+    /* ======================================================
+       GITHUB TEAM
+    ====================================================== */
 
     .team {
       margin-top: 24px;
@@ -591,8 +634,11 @@
 
     .team p {
       max-width: 780px;
+
       color: #415e50;
+
       margin: 0;
+
       font-size: 0.96rem;
     }
 
@@ -602,9 +648,9 @@
     }
 
 
-    /* =========================================================
+    /* ======================================================
        ABOUT
-    ========================================================== */
+    ====================================================== */
 
     .about {
       background: #eef1ec;
@@ -617,6 +663,7 @@
     .about-grid {
       display: grid;
       grid-template-columns: 1.1fr 1fr;
+
       gap: 70px;
     }
 
@@ -628,7 +675,9 @@
 
     .education {
       margin-top: 30px;
+
       padding-top: 23px;
+
       border-top: 1px solid #cbd5cc;
     }
 
@@ -645,9 +694,9 @@
     }
 
 
-    /* =========================================================
+    /* ======================================================
        SKILLS
-    ========================================================== */
+    ====================================================== */
 
     .skills-box {
       background: white;
@@ -667,46 +716,57 @@
 
     .skill-row {
       padding: 17px 0;
+
       border-top: 1px solid var(--line);
     }
 
 
     .skill-row strong {
       font-size: 0.9rem;
+
       display: block;
+
       margin-bottom: 7px;
     }
 
 
     .skill-row p {
       font-size: 0.88rem;
+
       color: var(--muted);
+
       margin: 0;
     }
 
 
-    /* =========================================================
+    /* ======================================================
        EXPERIENCE
-    ========================================================== */
+    ====================================================== */
 
     .experience-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
+
       gap: 42px;
     }
 
 
     .job {
       padding-top: 22px;
+
       border-top: 2px solid #96b5a4;
     }
 
 
     .job .date {
       font-size: 0.77rem;
+
       color: var(--green);
+
       font-weight: 700;
+
       letter-spacing: 0.4px;
+
       margin-bottom: 14px;
     }
 
@@ -718,20 +778,23 @@
 
     .job .org {
       color: var(--muted);
+
       font-size: 0.9rem;
+
       margin-bottom: 15px;
     }
 
 
     .job p {
       color: var(--muted);
+
       font-size: 0.94rem;
     }
 
 
-    /* =========================================================
-       RESUME BOX
-    ========================================================== */
+    /* ======================================================
+       RESUME
+    ====================================================== */
 
     .resume-panel {
       border: 1px solid var(--line);
@@ -759,18 +822,22 @@
 
     .resume-panel p {
       color: var(--muted);
+
       font-size: 0.94rem;
+
       margin: 0;
     }
 
 
-    /* =========================================================
+    /* ======================================================
        CONTACT
-    ========================================================== */
+    ====================================================== */
 
     .contact {
       background: var(--navy);
+
       color: white;
+
       padding: 65px 0;
     }
 
@@ -778,8 +845,9 @@
     .contact-inner {
       display: flex;
       justify-content: space-between;
-      gap: 35px;
       align-items: center;
+
+      gap: 35px;
     }
 
 
@@ -790,7 +858,9 @@
 
     .contact p {
       color: #d0dde1;
+
       margin-bottom: 0;
+
       max-width: 640px;
     }
 
@@ -807,13 +877,15 @@
     }
 
 
-    /* =========================================================
+    /* ======================================================
        FOOTER
-    ========================================================== */
+    ====================================================== */
 
     .footer {
       padding: 23px 0;
+
       font-size: 0.78rem;
+
       color: var(--muted);
     }
 
@@ -821,13 +893,14 @@
     .footer-inner {
       display: flex;
       justify-content: space-between;
+
       gap: 20px;
     }
 
 
-    /* =========================================================
-       MOBILE / TABLET
-    ========================================================== */
+    /* ======================================================
+       TABLET
+    ====================================================== */
 
     @media (max-width: 900px) {
 
@@ -836,17 +909,21 @@
         grid-template-columns: 1.5fr 1fr;
       }
 
+
       .focus {
         padding: 22px;
       }
+
 
       .about-grid {
         gap: 35px;
       }
 
+
       .team {
         grid-template-columns: 1fr;
       }
+
 
       .contact-inner {
         align-items: flex-start;
@@ -856,69 +933,92 @@
     }
 
 
+    /* ======================================================
+       MOBILE
+    ====================================================== */
+
     @media (max-width: 680px) {
 
       .wrap {
         width: calc(100% - 36px);
       }
 
+
       .header-inner {
         min-height: 80px;
+
         gap: 10px;
+
         flex-wrap: wrap;
+
         padding: 14px 0;
       }
+
 
       .brand {
         font-size: 1rem;
       }
+
 
       .monogram {
         width: 32px;
         height: 32px;
       }
 
+
       nav {
         gap: 17px;
       }
+
 
       nav a {
         font-size: 0.78rem;
       }
 
+
       .hero-grid {
         grid-template-columns: 1fr;
+
         padding: 52px 0;
+
         gap: 32px;
       }
+
 
       .hero h1 {
         font-size: 3.2rem;
       }
 
+
       .hero .lead {
         font-size: 1rem;
       }
+
 
       .focus {
         padding: 20px 24px;
       }
 
+
       .focus-row {
         padding: 12px 0;
       }
+
 
       .section {
         padding: 50px 0;
       }
 
+
       .section-heading {
         display: block;
       }
 
+
       .section-heading p {
         margin-top: 18px;
       }
+
 
       .project-grid,
       .about-grid,
@@ -926,24 +1026,31 @@
         grid-template-columns: 1fr;
       }
 
+
       .project-card {
         padding: 24px;
       }
+
 
       .team {
         padding: 25px;
       }
 
+
       .resume-panel {
         align-items: flex-start;
         flex-direction: column;
+
         padding: 25px;
       }
 
+
       .footer-inner {
         flex-direction: column;
+
         gap: 6px;
       }
+
 
       .meta-strip {
         gap: 13px 20px;
@@ -958,9 +1065,11 @@
         scroll-behavior: auto;
       }
 
+
       .project-card {
         transition: none;
       }
+
 
       .project-card:hover {
         transform: none;
@@ -976,10 +1085,6 @@
 <body>
 
 
-  <!-- =========================================================
-       HEADER
-  ========================================================== -->
-
   <a
     class="skip"
     href="#main"
@@ -987,6 +1092,11 @@
     Skip to content
   </a>
 
+
+
+  <!-- ======================================================
+       HEADER
+  ====================================================== -->
 
   <header class="site-header">
 
@@ -1038,9 +1148,9 @@
   <main id="main">
 
 
-    <!-- =========================================================
+    <!-- ======================================================
          HERO
-    ========================================================== -->
+    ====================================================== -->
 
     <section
       class="hero"
@@ -1086,6 +1196,7 @@
               <span aria-hidden="true">
                 ↓
               </span>
+
             </a>
 
 
@@ -1099,6 +1210,7 @@
               <span aria-hidden="true">
                 ↗
               </span>
+
             </a>
 
           </div>
@@ -1163,9 +1275,9 @@
 
 
 
-    <!-- =========================================================
-         EDUCATION / LOCATION STRIP
-    ========================================================== -->
+    <!-- ======================================================
+         EDUCATION / LOCATION
+    ====================================================== -->
 
     <div class="wrap meta-strip">
 
@@ -1202,9 +1314,9 @@
 
 
 
-    <!-- =========================================================
+    <!-- ======================================================
          PROJECTS
-    ========================================================== -->
+    ====================================================== -->
 
     <section
       class="section wrap"
@@ -1218,6 +1330,7 @@
           <p class="eyebrow">
             Selected work
           </p>
+
 
           <h2>
             Projects with a practical purpose.
@@ -1238,9 +1351,9 @@
       <div class="project-grid">
 
 
-        <!-- =====================================================
-             PROJECT 1
-        ====================================================== -->
+        <!-- ==================================================
+             PROJECT 01
+        =================================================== -->
 
         <article class="project-card">
 
@@ -1249,6 +1362,7 @@
             <span class="number">
               01
             </span>
+
 
             <span class="category">
               Security automation
@@ -1271,10 +1385,21 @@
 
           <div class="tags">
 
-            <span class="tag">Python</span>
-            <span class="tag">SQLite</span>
-            <span class="tag">Ollama</span>
-            <span class="tag">CISA KEV</span>
+            <span class="tag">
+              Python
+            </span>
+
+            <span class="tag">
+              SQLite
+            </span>
+
+            <span class="tag">
+              Ollama
+            </span>
+
+            <span class="tag">
+              CISA KEV
+            </span>
 
           </div>
 
@@ -1293,22 +1418,21 @@
 
           <div class="card-links">
 
-  <a
-    href="projects/Threat_Intelligence_Project.zip"
-    download
-  >
-    View project
-  </a>
+            <a
+              href="Threat_Intelligence_Project.zip"
+              download
+            >
+              Download project
+            </a>
 
-  <a
-    href="reports/Threat_Intel_Project_Report.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Read report
-  </a>
 
-</div>
+            <a
+              href="Threat_Intel_Project_Report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read report
+            </a>
 
           </div>
 
@@ -1316,9 +1440,9 @@
 
 
 
-        <!-- =====================================================
-             PROJECT 2
-        ====================================================== -->
+        <!-- ==================================================
+             PROJECT 02
+        =================================================== -->
 
         <article class="project-card">
 
@@ -1327,6 +1451,7 @@
             <span class="number">
               02
             </span>
+
 
             <span class="category">
               AI security
@@ -1349,10 +1474,21 @@
 
           <div class="tags">
 
-            <span class="tag">Garak</span>
-            <span class="tag">Hugging Face</span>
-            <span class="tag">Ollama</span>
-            <span class="tag">OWASP</span>
+            <span class="tag">
+              Garak
+            </span>
+
+            <span class="tag">
+              Hugging Face
+            </span>
+
+            <span class="tag">
+              Ollama
+            </span>
+
+            <span class="tag">
+              OWASP
+            </span>
 
           </div>
 
@@ -1369,24 +1505,23 @@
           </div>
 
 
-<div class="card-links">
+          <div class="card-links">
 
-  <a
-    href="projects/Prompt_Injection_Project.zip"
-    download
-  >
-    View project
-  </a>
+            <a
+              href="Prompt_Injection_Project.zip"
+              download
+            >
+              Download project
+            </a>
 
-  <a
-    href="reports/Prompt_Injection_Security_Assessment_Report.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Read report
-  </a>
 
-</div>
+            <a
+              href="Prompt_Injection_Security_Assessment_Report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read report
+            </a>
 
           </div>
 
@@ -1394,9 +1529,9 @@
 
 
 
-        <!-- =====================================================
-             PROJECT 3
-        ====================================================== -->
+        <!-- ==================================================
+             PROJECT 03
+        =================================================== -->
 
         <article class="project-card">
 
@@ -1405,6 +1540,7 @@
             <span class="number">
               03
             </span>
+
 
             <span class="category">
               Governance &amp; risk
@@ -1454,15 +1590,23 @@
           </div>
 
 
-<div class="card-links">
+          <div class="card-links">
 
-  <a
-    href="reports/Risk_Management_Project_Report.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Read report
-  </a>
+            <a
+              href="Risk_Management_Project.zip"
+              download
+            >
+              Download project
+            </a>
+
+
+            <a
+              href="Risk_Management_Project_Report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read report
+            </a>
 
           </div>
 
@@ -1470,9 +1614,9 @@
 
 
 
-        <!-- =====================================================
-             PROJECT 4
-        ====================================================== -->
+        <!-- ==================================================
+             PROJECT 04
+        =================================================== -->
 
         <article class="project-card">
 
@@ -1481,6 +1625,7 @@
             <span class="number">
               04
             </span>
+
 
             <span class="category">
               Systems programming
@@ -1503,9 +1648,17 @@
 
           <div class="tags">
 
-            <span class="tag">Java</span>
-            <span class="tag">Operating systems</span>
-            <span class="tag">Team project</span>
+            <span class="tag">
+              Java
+            </span>
+
+            <span class="tag">
+              Operating systems
+            </span>
+
+            <span class="tag">
+              Team project
+            </span>
 
           </div>
 
@@ -1522,24 +1675,23 @@
           </div>
 
 
-<div class="card-links">
+          <div class="card-links">
 
-  <a
-    href="projects/MiniOS_Project.zip"
-    download
-  >
-    View project
-  </a>
+            <a
+              href="MiniOS_Project.zip"
+              download
+            >
+              Download project
+            </a>
 
-  <a
-    href="reports/MiniOS_Project_Report.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Read report
-  </a>
 
-</div>
+            <a
+              href="MiniOS_Project_Report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read report
+            </a>
 
           </div>
 
@@ -1549,9 +1701,9 @@
 
 
 
-      <!-- =========================================================
-           GITHUB
-      ========================================================== -->
+      <!-- ======================================================
+           GITHUB TEAM
+      ====================================================== -->
 
       <article class="team">
 
@@ -1591,9 +1743,9 @@
 
 
 
-    <!-- =========================================================
+    <!-- ======================================================
          ABOUT
-    ========================================================== -->
+    ====================================================== -->
 
     <section
       class="section about"
@@ -1658,10 +1810,6 @@
         </div>
 
 
-
-        <!-- =====================================================
-             SKILLS
-        ====================================================== -->
 
         <div class="skills-box">
 
@@ -1732,9 +1880,9 @@
 
 
 
-    <!-- =========================================================
-         EXPERIENCE
-    ========================================================== -->
+    <!-- ======================================================
+         EXPERIENCE / RESUME
+    ====================================================== -->
 
     <section
       class="section wrap"
@@ -1748,6 +1896,7 @@
           <p class="eyebrow">
             Experience &amp; résumé
           </p>
+
 
           <h2>
             Responsibility beyond the code.
@@ -1824,10 +1973,6 @@
 
 
 
-      <!-- =========================================================
-           RESUME
-      ========================================================== -->
-
       <div class="resume-panel">
 
         <div>
@@ -1876,9 +2021,9 @@
 
 
 
-    <!-- =========================================================
+    <!-- ======================================================
          CONTACT
-    ========================================================== -->
+    ====================================================== -->
 
     <section
       class="contact"
@@ -1926,12 +2071,6 @@
     </section>
 
   </main>
-
-
-
-  <!-- =========================================================
-       FOOTER
-  ========================================================== -->
 
   <footer class="footer">
 
